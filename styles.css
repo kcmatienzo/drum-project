@@ -1,12 +1,76 @@
-html {
-  font-size: 12px;
-  background: url('images/background.jpg');
-  background-size: cover;
+body, html {
+  text-align: center;
+  background-color: #32322c;
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
   font-family: sans-serif;
+  text-shadow: 2px 0 #DA0463;
+
+}
+
+.key {
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: 10% auto;
+  font-size: 4rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
   text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+
+}
+
+.keys {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.pressed {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.a {
+  background-image: url("images/tom.png");
+}
+
+.s {
+  background-image: url("images/tink.png");
+}
+
+.d {
+  background-image: url("images/snare.png");
+}
+
+.f {
+  background-image: url("images/ride.png");
+}
+
+.g {
+  background-image: url("images/openhat.png");
+}
+
+.h {
+  background-image: url("images/kick.png");
+}
+
+.j {
+  background-image: url("images/hihat.jpg");
+}
+
+.k {
+  background-image: url("images/clap.png");
+}
+
+.l {
+  background-image: url("images/boom.png");
 }
